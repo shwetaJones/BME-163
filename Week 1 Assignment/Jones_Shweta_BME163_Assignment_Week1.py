@@ -49,6 +49,5 @@ for i in np.arange(0,1,0.1):
                                     edgecolor='black',\
                                     linewidth=1)
             panel2.add_patch(rectangle)
-
-# plt.savefig('1asgn1.png', dpi=600)
+            
 plt.savefig(args.output_file, dpi=600)
