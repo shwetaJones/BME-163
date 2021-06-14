@@ -10,18 +10,18 @@ parser.add_argument('-o', '--output_file')
 args = parser.parse_args()
 plt.style.use(args.style_sheet)
 
-# Sets the figure size, from Lecture 2
+# Sets the figure size, lecture 2
 figureHeight = 2
 figureWidth = 3.42
 plt.figure(figsize=(figureWidth, figureHeight))
 
-# Sets the panel size, from Lecture 2
+# Sets the panel size, lecture 2
 panelWidth = 1
 panelHeight = 1
 relativePanelWidth = panelWidth/figureWidth
 relativePanelHeight = panelHeight/figureHeight
 
-# Sets the location of the panels onto the figure, from Lecture 2
+# Sets the location of the panels onto the figure, lecture 2
 panel1 = plt.axes([0.1, 0.2, relativePanelWidth, relativePanelHeight])
 panel2 = plt.axes([0.55, 0.2, relativePanelWidth, relativePanelHeight])
 
