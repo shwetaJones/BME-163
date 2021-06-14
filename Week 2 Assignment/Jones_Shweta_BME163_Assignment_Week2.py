@@ -7,7 +7,7 @@ import argparse
 # Argparse code, from argparse_example.py code
 parser = argparse.ArgumentParser(description='Week 1 Assignment Options:', usage='python3 LastName_FirstName_BME163_Assignment_Week1.py -s /path/to/stylesheet.mplstyle -o /path/to/output.png')
 parser.add_argument('-s', '--style_sheet', default="BME163")
-parser.add_argument('-i', '--input_file')
+parser.add_argument('-i', '--input_file', default="BME163_Input_Data_1.txt")
 parser.add_argument('-o', '--output_file')
 args = parser.parse_args()
 plt.style.use(args.style_sheet)
