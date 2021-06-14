@@ -7,7 +7,7 @@ import argparse
 # Argparse code, from argparse_example.py code
 parser = argparse.ArgumentParser(description='Week 3 Assignment Options:', usage='python3 LastName_FirstName_BME163_Assignment_Week1.py -s /path/to/stylesheet.mplstyle -o /path/to/output.png')
 parser.add_argument('-s', '--style_sheet', default="BME163")
-parser.add_argument('-i', '--input_file')
+parser.add_argument('-i', '--input_file', default="BME163_Input_Data_2.txt")
 parser.add_argument('-o', '--output_file')
 args = parser.parse_args()
 plt.style.use(args.style_sheet)
@@ -53,9 +53,7 @@ panel = plt.axes([0.1665,0.1665,panelWidth,panelHeight])
 panel.set_xlim(-12.01,12.01)
 panel.set_ylim(0,60)
 panel.set_xlabel('log' + r'$_2$' + '(fold change)', fontsize=8)
-# panel.set_ylabel('-log' + r'$_{10}$' + '(p-value)', fontsize=8)
 
-# plt.xlabel(r'$log_{2}$'"(fold change)")
 plt.ylabel('-' + r'$log_{10}$' + '(p-value)')
 panel.tick_params(labelsize=8)
 panel.plot(xLabel,yLabel,\
