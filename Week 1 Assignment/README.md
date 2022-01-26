@@ -26,4 +26,5 @@ Happy plotting!
 
 SCORE: 93/100
 -5: Incorrect spacing on points in panel 1 (using arange with a right bound of pi/2 doesn't have an endpoint of pi/2) 
+
 -2: Point jitter in panel 1 from inaccurate pi value
