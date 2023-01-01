@@ -1,5 +1,7 @@
 # BME-163
-Applied Visualizations and Analysis of Scientific Data
+## Applied Visualizations and Analysis of Scientific Data
+### University: University of California, Santa Cuz
+### Professor: Christopher Vollmers
     
     Week 1 Assignment
     Week 2 Assignment
